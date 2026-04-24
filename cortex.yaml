@@ -1,0 +1,21 @@
+info:
+  title: Platform Monorepo
+  description: Monorepo containing platform infrastructure tooling, shared configs, and internal CLI utilities
+  x-cortex-tag: platform-monorepo
+  x-cortex-type: service
+  x-cortex-owners:
+    - type: group
+      name: platform-team
+  x-cortex-tier: 2
+  x-cortex-slack:
+    channel: "#platform-eng"
+  x-cortex-git:
+    github:
+      repo: mikemcnamara-C/platform-monorepo
+  x-cortex-custom-metadata:
+    domain: platform
+    repo-type: monorepo
+    packages:
+      - cli-tools
+      - shared-configs
+      - infra-modules
